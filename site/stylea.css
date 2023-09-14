@@ -149,7 +149,7 @@ body {
 
 #paneer #item-card,
 #vegetable #item-card {
-  background: rgb(165, 197, 171);
+  background: linear-gradient(to bottom, #1d1d1f, #414b5d);
 }
 
 #chinese #item-card,
@@ -416,3 +416,39 @@ body {
   color: green;
 }
  */
+ footer {
+  background-color: #fff;
+}
+
+.footer-head {
+  display: flex;
+  color: rgb(245, 122, 204);
+  justify-content: space-around;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 4vh;
+}
+
+.footer-head cite,
+.footer-head h3 {
+  cursor: pointer;
+}
+
+ .footer-end {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(to top, #000000, #090632);
+  justify-content: left;
+  justify-content: space-evenly;
+  padding: 10vh;
+  color: #fff;
+  padding-left: 2vh;
+}
+
+.foot-one p,
+.foot-two p,
+.foot-three p {
+  cursor: pointer;
+  font-size: 12px;
+}
